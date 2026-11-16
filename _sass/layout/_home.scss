@@ -1,0 +1,14 @@
+.wiki {
+    min-height: 100vh;
+    padding: 1rem;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+/* media queries */
+
+@media (max-width: 700px) {
+    .wiki {
+        padding: 0.75rem;
+    }
+}
