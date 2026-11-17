@@ -3,5 +3,8 @@
 
 @use "base/reset";
 @use "base/base";
+@use "base/typography";
 @use "abstracts/variables";
-@use "layout/home"
+@use "layout/home";
+@use "layout/wiki";
+@use "layout/forum";
