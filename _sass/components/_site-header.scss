@@ -1,0 +1,33 @@
+.site-header {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-bottom: 1px solid var(--wiki-border);
+    align-items: center;
+    justify-content: space-between;
+
+    &__branding {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__logo {
+        display: block;
+    }
+
+    &__title {
+        display: block;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    &__link {
+        display: block;
+    }
+}

@@ -5,6 +5,8 @@
 @use "base/base";
 @use "base/typography";
 @use "abstracts/variables";
+@use "components/site-header";
+@use "components/wiki-header";
 @use "layout/home";
 @use "layout/wiki";
 @use "layout/forum";

@@ -1,0 +1,27 @@
+<header class="site-header">
+    <div class="site-header__branding">
+        <a href="{{ '/' | relative_url }}">
+            <img class="site-header__logo" src="assets/image/logo.png">
+        </a>
+        <a class="site-header__title" href="{{ '/' | relative_url }}">
+            WEBSITE
+        </a>
+    </div>
+    <nav class="site-header__nav"
+    aria-label="Site navigation">
+        <a class="site-header__link"
+        href="{{ '/' | relative_url }}">
+            Home
+        </a>
+
+        <a class="site-header__link"
+        href="{{ '/wiki/' | relative_url }}">
+            Wiki
+        </a>
+
+        <a class="site-header__link"
+        href="{{ '/forum/' | relative_url }}">
+            Forum
+        </a>
+    </nav>
+</header>
