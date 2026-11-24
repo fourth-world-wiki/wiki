@@ -1,7 +1,7 @@
 .site-header {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding: 0 1em;
     border-bottom: 1px solid var(--wiki-border);
     align-items: center;
     justify-content: space-between;
@@ -17,8 +17,12 @@
         display: block;
     }
 
-    &__title {
+    &__title-link {
         display: block;
+    }
+
+    &__title-text {
+        font-size: 16pt;
     }
 
     &__nav {
