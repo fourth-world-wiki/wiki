@@ -13,3 +13,12 @@ body {
   color: vars.$text-color;
   font-family: vars.$body-font;
 }
+
+a {
+    color: vars.$link-color;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
